@@ -12,11 +12,14 @@
         "script": "tsc && node"
     },
     "dependencies": {
+        "@tonejs/midi": "^2.0.28",
+        "lodash": "^4.17.21",
         "tsc": "^2.0.4",
-        "typescript": "^4.6.4"
+        "typescript": "^4.8.2"
     },
     "devDependencies": {
-        "@types/node": "^17.0.34",
-        "prettier": "^2.6.2"
+        "@types/lodash": "^4.14.184",
+        "@types/node": "^18.7.13",
+        "prettier": "^2.7.1"
     }
 }
